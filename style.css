@@ -1,0 +1,456 @@
+﻿ @import url(http://fonts.googleapis.com/css?family=Lato:100,regular);
+*{
+   font-family:  Lato, Verdana, Geneva, sans-serif;
+ }
+
+.logo{
+
+     background-position:  left;
+     float:left;
+     width: 200px;
+}
+header{
+    padding-bottom: 68px;
+}
+
+header img{
+     float:left;
+     width: 50px;
+     margin: 7px;
+}
+
+.logo h1{
+          text-transform:  uppercase ;
+          padding-left: 6px;
+          font-size: medium;
+
+}
+  .logo h2{
+          font-size: small;
+          padding-left:6px;
+}
+   .menu nav{
+         float:right;
+         width: 500px;
+         white-space: 0px;
+ }
+   .menu li{
+
+     padding-right: 15px;
+     padding-top: 7px;
+     text-transform:  uppercase ;
+     display: inline-block;
+     list-style-type: none;
+     justify-content: space-between;
+
+
+}
+
+ .menu  a{
+    text-decoration:  none;
+    color:black;
+    padding: 10px;
+ }
+ .menu  a:hover{
+     color:white;
+     background: #009D81;
+
+ }
+    .home{
+      background-image:  url(imges/fotofon.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height:566px;
+      color: white;
+      text-align: center;
+      padding-top: 30px;
+ }
+    .home h1{
+         font-size:  xx-large;
+         font-weight: normal;
+		     margin: auto;
+ }
+
+    .home p {
+            font-size:  medium;
+            width: 50%;
+            margin: auto;
+            padding: 45px;
+    }
+     .bottom a{
+    text-transform:  uppercase;
+    text-decoration: none;
+    background: #009D81;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: solid 2px #009Dcc;
+    padding-top: 6px;
+    padding: 10px;
+    color: white;
+     }
+    .bottom a:hover{
+    background: #009Dcc;
+    }
+    .home img{
+             padding: 40px;
+     }
+
+        .portfolio{
+               text-align: center;
+     }
+        .portfolio h1{
+           font-size: xx-large;
+     }
+
+        .portfolio p {
+            font-size: small;
+            width: 50%;
+            margin: auto;
+            padding: 40px;
+    }
+
+         .portfolio ul li a{
+    text-decoration: none;
+    background: #009D81;
+    text-align: center;
+    border: solid 2px #009Dcc;
+    padding-top: 6px;
+    padding: 10px;
+    color: white;
+     }
+         .portfolio ul a:hover{
+    background: #009Dcc;
+    }
+         .portfolio ul li{
+           text-align: center;
+           word-spacing: 20px;
+           display: inline-table;
+           padding-top: 20px;
+     }
+         .gallary{
+             padding: 4px;
+             margin: auto;
+             width: 70%;
+             padding-bottom: 30px;
+             padding-top: 30px;
+
+         }
+          .gallary a{
+              position: relative;
+              display: inline-block;
+          }
+
+        .gallary li{
+            display: inline-block;
+            word-spacing: 25px;
+
+             }
+
+
+          .gallary a:hover .over {
+
+               transition: all 0.3s ease 0.3s;
+               opacity: 0.8;
+           }
+
+
+           .over{
+                 position: absolute;
+                 top:0;
+                 left: 0;
+                 width: 180px;
+                 height: 180px;
+                 background: grey;
+                 border-radius: 50%;
+                 opacity: 0;
+                 color:white
+        }
+
+        .about{
+             background: #009D81;
+             text-align: center;
+
+    padding-top: 4px;
+    padding: 10px;
+    color: white;
+         }
+
+         .about li a{
+              list-style-type: none;
+			 
+         }
+         .about li{
+             display: inline-block;
+             padding: 10px;
+             width: 280px;
+
+         }
+         figure img{
+              vertical-align: top;
+         }
+
+           figcaption{
+
+                    font-size:  small;
+                   
+                    display: inline-block;
+                    background-color: white;
+                    color: grey;
+                    text-align: justify;
+					padding: 10px;
+
+
+           }
+           figcaption h3{
+               font-size: medium;
+           }
+
+            figure{
+              position:   relative;
+              display: inline-block;
+			  padding: 10px;
+			 opacity:0.9;
+			
+            }
+           figure img:hover .cosial{
+               opacity: 0.8;
+               transition: all 0.1s ease 0.1s;
+              
+           }
+		 
+           .cosial a{
+                
+position:relative;
+left:10px;
+border-bottom: solid 1px lightgrey ;
+border-radius: 50%;
+height: 40px;
+width:40px;
+bottom:270px;
+ display: compact;
+opacity: 0.2;
+
+
+           }
+		figure:hover {opacity:1;
+			 
+            transition: all 0.2s ease 0.2s;
+
+		}
+		 figcaption:hover{
+			 color: black;
+			 }
+		   .cosial a:hover{
+			   opacity:1; 
+
+		   }
+
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+#feedback-page{
+	text-align:left;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+.contact {
+	background-color:grey;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:30px;
+	width: 420px;
+	float: left;
+	left: 10px;
+	position: absolute;
+  margin-top:30px;
+	margin-left: 100px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.feedback-input {
+	color:#009D81;
+
+  font-weight:400;
+	font-size: 18px;
+	
+	line-height: 20px;
+	
+	padding: 8px 8px 8px 50px;
+	margin-bottom: 5px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	
+	border: 3px solid #009D81;
+	color: black;
+	outline: none;
+  padding: 8px 8px 8px 50px;
+}
+
+.focused{
+	color:white;
+	border:#30aed6 solid 2px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 10px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 25px 25px;
+	background-position: 8px 5px;
+  background-position: 10px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 25px 25px;
+	background-position: 10px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 25px 25px;
+  background-position: 10px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 25px 25px;
+	background-position: 10px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    line-height: 100%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-green{
+	
+	float:left;
+	width: 100%;
+	border: white solid 5px;
+	cursor:pointer;
+	background-color: #009D81;
+	color:white;
+	font-size:24px;
+	padding-top:20px;
+	padding-bottom:20px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-green:hover{
+	background-color: rgba(0,0,0,0);
+	color: black;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 70px;
+	background-color: #009D81;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+
+	.contact{
+		left: 2%;
+		margin-right: 2%;
+		width: 40%;
+		margin-left: 0;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+ 
+.address{ float: right;
+
+	width: 40%;
+	top: 30px;
+	margin: 20px;
+	 padding-left: 20px; 
+	}
+	
+   .address p{
+	  
+         font-size:  medium;
+         font-weight: normal;
+ 
+    padding: 6px;
+         
+   }
+   .address h2{
+	  
+	  font-size: x-large; 
+	  text-transform:  uppercase ;
+   }
+        
+.copy{
+	margin-top: 500px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+ text-align: center;
+ font-size: medium; 
+ float: left;
+ width: 400px;
+ }
+ 
+ 
+ .link a{
+	float: right;
+wigth: 400px;
+padding-top:440px;
+padding-right: 10px;
+}
+
+    
+   
